@@ -6,5 +6,3 @@ while a.all? { |s| s.even? }
     count += 1
 end
 puts count
-
-a = gets.split(" ").map(&:to_i)
